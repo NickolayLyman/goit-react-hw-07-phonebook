@@ -1,0 +1,21 @@
+.label {
+  margin-bottom: 20px;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+.input {
+  margin-left: 15px;
+  padding: 5px;
+  color: rgb(9, 102, 109);
+  border: 1px solid rgb(9, 102, 109);
+  border-radius: 5px;
+  outline: rgb(9, 102, 109);
+  border: 2px solid;
+}
+.input:focus,
+.input:hover {
+  border: 2px solid rgb(11, 214, 113);
+}

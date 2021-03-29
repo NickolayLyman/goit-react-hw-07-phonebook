@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding-top: 80px;
+}
+.title,
+.subtitle {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.btn {
+  width: 200px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: green;
+  color: white;
+  border: green;
+  outline: green;
+}
+
+.btn:hover,
+.bth:focus {
+  transform: scale(1.08);
+}
